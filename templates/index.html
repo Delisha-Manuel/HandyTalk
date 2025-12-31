@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; margin: 0; padding: 0; width: 100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+<head style="background-color: #def8ff; margin: 0; padding: 0; height: 100%; width: 100%;">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title> HandyTalk </title>
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css" />
+</head>
+
+<body style="background-size: cover; background-color: #def8ff; margin: 0; padding: 0; height: 100%; width: 100%;">
+    <!-- Header -->
+    <header class="container" style="text-align: center; margin-bottom: 0;">
+        <hgroup>
+            <h1 style="color: #00317b; font-size: 56px;"> HandyTalk</h1>
+            <p style="color: #00317b; font-size: 30px; max-width: 100%; text-align: center">
+                <b>A real-time American Sign Language translator using computer vision and machine learning.</b>
+            </p>
+        </hgroup>
+    </header>
+
+    <!-- Main -->
+    <main class="container" style="min-height: 100%; box-sizing: border-box;">
+        <section style="display: flex; justify-content: space-between; gap: 20px; margin-bottom: 40px;">
+
+            <article id="article" style="background-color: #cff3ff; flex: 1; border: 15px solid #00317b;">
+                <h2 style="text-align: center; margin-top: 2%; color: #00317b">
+                    The Problem:
+                </h2>
+                <b><p style="text-align: center; color: #000000; max-width: 800px; margin: 0 auto">
+                    Did you know ASL is the third most common language in the world, after English and Spanish? <br /><br />
+                    
+                    Globally, over 1.5 billion people have some form hearing loss, with 430 million having disabling hearing loss. 
+                    The Hearing Loss Association of America estimates that around 48 million Americans have some hearing loss, 
+                    with numbers increasing with age, especially for those over 65. This means daily activities like conversations 
+                    with friends are inaccessible millions of people!<br><br> </b>
+                </p>
+            </article>
+
+            <article id="article" style="background-color: #cff3ff; flex: 1; border: 15px solid #00317b;">
+                <h2 style="text-align: center; margin-top: 9%; color: #00317b">
+                    The Solution:
+                </h2>
+                <p style="text-align: left; margin-left: 15px; color: #000000">
+                <b>Because of this, HandyTalk allows people to spell out words to each other in sign language, verifying each one. 
+                    Just hold up your letter, and the MediaPipe neural network will work predict what you are saying!  <br><br><br></p>
+                <a href='/translator'>
+                  <button style="background-color: #00317b; color: #ffffff; width: 100%; font-size: 18px; cursor: pointer; border: none">
+                    Let's try it!
+                  </button>
+                </a>
+            </article>
+        </main>
+    <script src="static/script.js"></script>
+</body>
+</html>
+
+
